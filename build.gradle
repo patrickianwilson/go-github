@@ -1,0 +1,13 @@
+ext {
+    mainPackage="clientsdk/moduleservice"
+    //runArgs = ["hello world"]
+    rootPackage="github.com/google/go-github"
+}
+
+apply from: "${project.rootProject.projectDir}/config/gradle/golang/golang-conventions.gradle"
+
+task pkg(dependsOn: ["packageGoLib"])
+
+task release(dependsOn: ["pkg"])
+
+

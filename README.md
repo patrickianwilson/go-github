@@ -212,7 +212,7 @@ For complete usage of go-github, see the full [package docs][].
 
 ### Integration Tests ###
 
-You can run integration tests from the `test` directory. See the integration tests [README](test/README.md).
+You can run integration tests from the `test` directory. See the integration tests [README](src/test/README.md).
 
 ## Roadmap ##
 

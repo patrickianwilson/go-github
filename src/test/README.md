@@ -2,7 +2,7 @@ go-github tests
 ===============
 
 This directory contains additional test suites beyond the unit tests already in
-[../github](../github). Whereas the unit tests run very quickly (since they
+[../github](../src/main/go/github). Whereas the unit tests run very quickly (since they
 don't make any network calls) and are run by Travis on every commit, the tests
 in this directory are only run manually.
 
